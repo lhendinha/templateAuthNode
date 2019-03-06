@@ -1,4 +1,4 @@
-# Node Autenticação
+# API em Node com autenticação e Docker.
 
 API de autenticação em Node.JS com Docker.
 
