@@ -1,6 +1,5 @@
 # Utilizando a ultima versão do node, caso deseja utilizar uma em específico, coloque o número da versão no final.
 FROM node:latest
-
 # Cria o diretório do aplicativo
 WORKDIR /usr/src/app
 

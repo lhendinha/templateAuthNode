@@ -1,8 +1,10 @@
-version: "2"
+version: "3"
 services:
   app:
     container_name: app
     restart: always
+    environment:
+      - MONGODB_URL=mongodb://mongo:27017/nodemongodbdocker
     build: .
     ports:
       - "3001:3001"
