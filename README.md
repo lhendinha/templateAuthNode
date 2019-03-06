@@ -7,6 +7,7 @@ Disponível também em Docker, por favor dê uma olhada: https://hub.docker.com/
 Como fazer:
 
   #Opção 1:
+  
   docker run -d -p 27017:27017 -p 28017:28017 -e AUTH=no tutum/mongodb
 
   Pegar o id do container e renomear para: mymongodb, com o comando:
@@ -18,6 +19,7 @@ Como fazer:
   docker run -p : --link mymongodb:mymongodb
 
   #Opção 2:
+  
   docker-compose build
   
   docker-compose up
