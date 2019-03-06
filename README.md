@@ -19,4 +19,5 @@ Como fazer:
 
   #Opção 2:
   docker-compose build
+  
   docker-compose up
